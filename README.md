@@ -14,18 +14,16 @@ On Arch Linux:
 sudo pacman -S tk
 ```
 
+On Debian
+```bash
+sudo apt update 
+sudo apt install tk pythontk
+```
+
 ## Installation
 
 ```bash
 git clone <repository-url>
-cd tkinter
 
-python -m venv .venv
-source .venv/bin/activate
-
-python intro.py
+python main.py
 ```
-
-## License
-
-Open source.
